@@ -62,6 +62,8 @@ public class MainActivity extends AppCompatActivity {
 
             // Creates inputs for reference.
             TensorBuffer inputFeature0 = TensorBuffer.createFixedSize(new int[]{1, 224, 224, 3}, DataType.FLOAT32);
+
+            //new
             ByteBuffer byteBuffer = ByteBuffer.allocateDirect(4 * imageSize * imageSize * 3);
             byteBuffer.order(ByteOrder.nativeOrder());
 
@@ -83,6 +85,7 @@ public class MainActivity extends AppCompatActivity {
             Model.Outputs outputs = model.process(inputFeature0);
             TensorBuffer outputFeature0 = outputs.getOutputFeature0AsTensorBuffer();
 
+            //new
             float[] confidences = outputFeature0.getFloatArray();
             int maxPos = 0;
             float maxConfidence = 0;
@@ -93,7 +96,7 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
 
-            String[] classes = {"Ok", "Peace", "Loser","Thumbs Up"};
+            String[] classes = {"Watch", "Scissor", "Charger head","Phone"};
 
             result.setText(classes[maxPos]);
 
