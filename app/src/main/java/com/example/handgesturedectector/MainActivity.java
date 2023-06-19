@@ -96,6 +96,7 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
 
+            // !!!!!ibahin neo to based dun sa pagkakasunod ng class neo sa teachable machine!!!!
             String[] classes = {"Watch", "Scissor", "Charger head","Phone"};
 
             result.setText(classes[maxPos]);
