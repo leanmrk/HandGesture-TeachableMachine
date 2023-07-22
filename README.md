@@ -7,5 +7,5 @@ master Branch
 2. Vergara, Jhon Carl
 
 Theodosio_Briones Branch
-1. Theodosio, Harold Adrian
+1. Teodosio, Harold Adrian
 2. Briones, Jireh
