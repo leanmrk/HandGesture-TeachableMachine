@@ -1,10 +1,12 @@
 # ItemDetector-TeachableMachine
 
-Dun sa MainActivity.java line 99, change neo yung items.
+!!!APK file of each group is located in its own branch!!!
 
-Tas pag ieexport na yung file from TeachableMachine, export neo yung Tensorflow Lite tas unzip neo tas rename neo yung tflite file into model.tflite.
+master Branch
 
-Punta keo sa android studio tas open neo yung naclone na repository. Tas after magload nung project, right click neo yung app folder/package (sa left side to makikita) > new > other > TensorFlow Lite Model tas locate neo lang yung model.tflite tas maooverwrite sya matic tas click finish.
+Mendoza, Leean Mark
+Vergara, Jhon Carl
+Theodosio_Briones Branch
 
-Eto yung youtube tutorial HHASHAHSAS
-https://youtu.be/jhGm4KDafKU
+Theodosio, Harold Adrian
+Briones, Jireh
