@@ -16,7 +16,7 @@
         android:layout_marginStart="32dp"
         android:layout_marginEnd="32dp"
         android:layout_marginBottom="30dp"
-        android:background="@drawable/btnrounded"
+        android:padding="10dp"
         android:text="Take Picture"
         android:textAllCaps="false"
         android:textSize="21sp"
@@ -48,7 +48,7 @@
         android:layout_below="@+id/classified"
         android:layout_centerHorizontal="true"
         android:text=""
-        android:textColor="#C30000"
+        android:textColor="#d16405"
         android:textSize="27sp"
         android:textStyle="bold" />
 
